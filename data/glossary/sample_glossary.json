@@ -1,0 +1,7 @@
+[
+  { "term": "ISRO", "action": "preserve", "source_language": "en-IN", "case_sensitive": true, "context": "Indian Space Research Organisation" },
+  { "term": "RailBlock AI", "action": "preserve", "source_language": "en-IN", "case_sensitive": false, "context": "Brand and product name" },
+  { "term": "IndicLive", "action": "preserve", "source_language": "en-IN", "case_sensitive": false, "context": "Brand and platform name" },
+  { "term": "Indian Railways", "action": "preserve", "source_language": "en-IN", "case_sensitive": false, "context": "Organization name" },
+  { "term": "Machine Learning", "action": "preferred", "replacement": "இயந்திர கற்றல்", "source_language": "en-IN", "target_language": "ta-IN", "case_sensitive": false, "context": "Domain terminology" }
+]

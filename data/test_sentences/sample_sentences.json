@@ -1,0 +1,65 @@
+{
+  "test_suites": [
+    {
+      "id": "indic_standard_eval",
+      "name": "Standard Conversational & Entity Evaluation Suite",
+      "sentences": [
+        {
+          "id": "sent_01",
+          "language": "en-IN",
+          "text": "Good morning everyone, today we are going to discuss artificial intelligence.",
+          "category": "formal_greeting",
+          "reference_translations": {
+            "ta-IN": "அனைவருக்கும் காலை வணக்கம், இன்று நாம் செயற்கை நுண்ணறிவு பற்றி விவாதிக்க உள்ளோம்.",
+            "hi-IN": "सभी को सुप्रभात, आज हम कृत्रिम बुद्धिमत्ता पर चर्चा करने जा रहे हैं।",
+            "ml-IN": "എല്ലാവർക്കും സുപ്രഭാതം, ഇന്ന് നാം കൃത്രിമബുദ്ധിയെക്കുറിച്ച് ചർച്ച ചെയ്യാൻ പോകുന്നു."
+          }
+        },
+        {
+          "id": "sent_02",
+          "language": "en-IN",
+          "text": "I will be travelling to Chennai tomorrow.",
+          "category": "named_entity_travel",
+          "reference_translations": {
+            "ta-IN": "நான் நாளை சென்னைக்கு பயணம் செய்ய உள்ளேன்.",
+            "hi-IN": "मैं कल चेन्नई की यात्रा करूंगा।",
+            "ml-IN": "ഞാൻ നാളെ ചെന്നൈയിലേക്ക് യാത്ര ചെയ്യും."
+          }
+        },
+        {
+          "id": "sent_03",
+          "language": "en-IN",
+          "text": "The train leaves at 10:30 AM.",
+          "category": "numeric_time_protection",
+          "reference_translations": {
+            "ta-IN": "ரயில் காலை 10:30 மணிக்கு புறப்படுகிறது.",
+            "hi-IN": "ट्रेन सुबह 10:30 बजे रवाना होती है।",
+            "ml-IN": "ട്രെയിൻ രാവിലെ 10:30 ന് പുറപ്പെടുന്നു."
+          }
+        },
+        {
+          "id": "sent_04",
+          "language": "en-IN",
+          "text": "ISRO launched the satellite successfully.",
+          "category": "acronym_organization",
+          "reference_translations": {
+            "ta-IN": "இஸ்ரோ செயற்கைக்கோளை வெற்றிகரமாக விண்ணில் செலுத்தியது.",
+            "hi-IN": "इसरो ने उपग्रह का सफल प्रक्षेपण किया।",
+            "ml-IN": "ഐഎസ്ആർഒ ഉപഗ്രഹം വിജയകരമായി വിക്ഷേപിച്ചു."
+          }
+        },
+        {
+          "id": "sent_05",
+          "language": "ta-IN",
+          "text": "நான் நாளைக்கு சென்னைக்கு போகிறேன்.",
+          "category": "reverse_tamil_source",
+          "reference_translations": {
+            "en-IN": "I will go to Chennai tomorrow.",
+            "hi-IN": "मैं कल चेन्नई जाऊंगा।",
+            "ml-IN": "ഞാൻ നാളെ ചെന്നൈയിലേക്ക് പോകും."
+          }
+        }
+      ]
+    }
+  ]
+}

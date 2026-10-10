@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#1E3A8A"/>
+  <!-- Speech wave layers -->
+  <path d="M12 24C12 20 15 17 19 17C21 17 23 18 24 20C25 18 27 17 29 17C33 17 36 20 36 24C36 28 33 31 29 31C27 31 25 30 24 28C23 30 21 31 19 31C15 31 12 28 12 24Z" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wave dynamic bars -->
+  <line x1="16" y1="21" x2="16" y2="27" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="24" y1="18" x2="24" y2="30" stroke="#0D9488" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="32" y1="21" x2="32" y2="27" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Flow / translation loop dot -->
+  <circle cx="24" cy="24" r="2" fill="#F8FAFC"/>
+</svg>
